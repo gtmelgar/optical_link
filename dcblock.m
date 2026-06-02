@@ -1,4 +1,4 @@
-function [varargout] = dcblock(varargin);
+function [varargout] = dcblock(varargin)
 %
 % DCBLOCK   determines the filter coefficient a for the dc blocking/high- 
 %           pass filter y(t) = x(t) - x(t-1) + a*y(t-1).
